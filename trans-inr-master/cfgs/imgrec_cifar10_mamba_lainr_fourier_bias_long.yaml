@@ -1,0 +1,48 @@
+trainer: imgrec_trainer_lainr
+warmup_epochs: 40
+
+train_dataset:
+  name: imgrec_dataset
+  args:
+    imageset:
+      name: cifar_10
+      args: {root_path: /home/idies/.cache/, split: train}
+    resize: 32
+  loader:
+    batch_size: 16
+    num_workers: 8
+
+test_dataset:
+  name: imgrec_dataset
+  args:
+    imageset:
+      name: cifar_10
+      args: {root_path: /home/idies/.cache/, split: test}
+    resize: 32
+  loader:
+    batch_size: 16
+    num_workers: 8
+
+model:
+  name: mamba_lainr_inr
+  args:
+    tokenizer:
+      name: mamba_patch_tokenizer
+      args: {input_size: 32, patch_size: 2, dim: 256, pos_emb: 'fourier'}
+    hyponet:
+      name: lainr_mlp_bias
+      args: {feature_dim: 256, input_dim: 2, output_dim: 3, sigma_q: 16, sigma_ls: [128, 32], n_patches: 256}
+    mamba_encoder:
+      name: mamba_encoder
+      args: {dim: 256, depth: 6, ff_dim: 1024}
+    type: 'equidistant'
+    n_group: 1
+    num_lp: 256
+
+optimizer:
+  name: adamw
+  args: {lr: 5.e-4}
+max_epoch: 400
+
+eval_epoch: 1
+vis_epoch: 5

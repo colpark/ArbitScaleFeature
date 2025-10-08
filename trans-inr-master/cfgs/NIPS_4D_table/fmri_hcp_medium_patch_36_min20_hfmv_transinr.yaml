@@ -1,0 +1,35 @@
+trainer: fmri_trainer_lainr_ddp_resize_lr
+
+data_module:
+  name: fmri_datamodule
+  args:
+    config_path: /pscratch/sd/t/tbalasoo/MAMBAINR/trans-inr-master/cfgs/hcp_data_all_config.yaml
+
+
+model:
+  name: trans_inr_ddp_4d
+  args:
+    input_size: [36, 36, 36, 2]
+    patch_size: [4, 4, 4, 2]
+    hyponet:
+        name: hypo_mlp_fmri
+        args: {feature_dim: 512, input_dim: 4, output_dim: 1, sigma_q: 128, sigma_ls: [128, 32], n_patches: 1728}
+        args: {in_dim: 4, out_dim: 1, out_bias: 0.0, depth: 5, hidden_dim: 512, use_pe: true, pe_dim: 128}
+    n_groups: 16
+    transformer_encoder:
+        name: transformer_encoder
+        args: {dim: 512, depth: 6, ff_dim: 2048, n_head: 12, head_dim: 64}
+      
+optimizer:
+  name: adamw
+  args: {lr: 15.e-5}
+max_epoch: 400
+resize: 36
+min_lr_p: 0.2
+
+eval_epoch: 1
+vis_epoch: 1
+
+use_torch_compile: False
+use_amp: True
+use_augmentation: False

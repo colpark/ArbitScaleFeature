@@ -1,0 +1,53 @@
+trainer: 
+    name: imgrec_trainer_lainr_sr
+    args:
+        p: 0.0
+
+train_dataset:
+  name: sr_dataset
+  args:
+    imageset:
+      name: celebahq_sr
+      args: {root_path: /home/idies/.cache/kagglehub/datasets/lamsimon/celebahq/versions/1/, split: train}
+    resize_1: 256
+    resize_2: 64
+  loader:
+    batch_size: 16
+    num_workers: 8
+  
+
+test_dataset:
+  name: sr_dataset
+  args:
+    imageset:
+      name: celebahq_sr
+      args: {root_path: /home/idies/.cache/kagglehub/datasets/lamsimon/celebahq/versions/1/, split: test}
+    resize_1: 256
+    resize_2: 64
+  loader:
+    batch_size: 16
+    num_workers: 8
+
+model:
+  name: mamba_lainr_inr_sr
+  args:
+    tokenizer:
+      name: mamba_patch_tokenizer
+      args: {input_size: 64, patch_size: 4, dim: 256, pos_emb: 'fourier'}
+    hyponet:
+      name: lainr_mlp_bias
+      args: {feature_dim: 256, input_dim: 2, output_dim: 3, sigma_q: 16, sigma_ls: [128, 32], n_patches: 256}
+    mamba_encoder:
+      name: mamba_encoder
+      args: {dim: 256, depth: 6, ff_dim: 1024}
+    type: 'equidistant'
+    n_group: 1
+    num_lp: 256
+
+optimizer:
+  name: adamw
+  args: {lr: 1.e-4}
+max_epoch: 50
+
+eval_epoch: 1
+vis_epoch: 5

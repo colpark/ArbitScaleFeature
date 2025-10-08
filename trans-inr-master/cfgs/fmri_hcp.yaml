@@ -1,0 +1,29 @@
+trainer: fmri_trainer_lainr_ddp
+
+data_module:
+  name: fmri_datamodule
+  args:
+    config_path: /pscratch/sd/t/tbalasoo/MAMBAINR/trans-inr-master/cfgs/hcp_data_config.yaml
+
+model:
+  name: mamba_lainr_inr_ddp_4d
+  args:
+    input_size: [96, 96, 96, 2]
+    patch_size: [16, 16, 16, 1]
+    hyponet:
+        name: lainr_mlp_bias_fmri
+        args: {feature_dim: 256, input_dim: 4, output_dim: 1, sigma_q: 16, sigma_ls: [128, 32], n_patches: 432}
+    mamba_encoder:
+        name: mamba_encoder
+        args: {dim: 256, depth: 6, ff_dim: 1024}
+    type: 'equidistant'
+    n_group: 1
+    num_lp: 256
+
+optimizer:
+  name: adam
+  args: {lr: 1.e-4}
+max_epoch: 100
+
+eval_epoch: 1
+vis_epoch: 1

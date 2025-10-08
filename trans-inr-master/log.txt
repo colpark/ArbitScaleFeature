@@ -1,0 +1,26 @@
+Benchmark Results Log
+==================================================
+
+=== Token Length: 128 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 128 for ModelA
+
+=== Token Length: 512 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 512 for ModelA
+
+=== Token Length: 1024 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 1024 for ModelA
+
+=== Token Length: 4096 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 4096 for ModelA
+
+=== Token Length: 8192 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 8192 for ModelA
+
+=== Token Length: 16384 ===
+Benchmarking ModelA...
+⚠️  OOM at token length 16384 for ModelA

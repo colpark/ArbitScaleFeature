@@ -1,0 +1,48 @@
+trainer: imgrec_trainer2
+
+train_dataset:
+  name: imgrec_dataset
+  args:
+    imageset:
+      name: cifar_10
+      args: {root_path: /home/idies/.cache/, split: train}
+    resize: 32
+  loader:
+    batch_size: 16
+    num_workers: 8
+
+test_dataset:
+  name: imgrec_dataset
+  args:
+    imageset:
+      name: cifar_10
+      args: {root_path: /home/idies/.cache/, split: test}
+    resize: 32
+  loader:
+    batch_size: 16
+    num_workers: 8
+
+model:
+  name: mamba_composers_inr
+  args:
+    tokenizer:
+      name: mamba_patch_tokenizer
+      args: {input_size: 32, patch_size: 2, dim: 256}
+    hyponet:
+      name: hypo_mlp
+      args: {in_dim: 2, out_dim: 3, out_bias: 0.5, depth: 5, hidden_dim: 256, use_pe: true, pe_dim: 128}
+    mamba_encoder:
+      name: mamba_encoder
+      args: {dim: 256, depth: 6, ff_dim: 1024}
+    num_lp: 192
+    gen_layers: [0]
+    type: 'n_group'
+    n_group: 32
+
+optimizer:
+  name: adamw
+  args: {lr: 5.e-4}
+max_epoch: 40
+
+eval_epoch: 1
+vis_epoch: 5

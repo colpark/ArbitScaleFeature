@@ -1,0 +1,81 @@
+# =================================================
+# Configuration for DataModule
+# =================================================
+
+# --- Dataset and Splitting ---
+# List of dataset names to use. Must match a class in datasets.py (e.g., S1200)
+dataset_name: ["S1200"] 
+
+# Corresponding list of paths to the preprocessed dataset directories.
+image_path: ["/pscratch/sd/j/jubchoi/HCP_example/pt_version/"]
+
+# Which predefined data split to use (e.g., 1, 2, 3).
+# The module will look for a file like './data/splits/S1200_split1.pkl'
+dataset_split_num: 1
+
+# Fraction of data for training if creating a new split from scratch.
+train_split: 0.8
+
+# Fraction of data for validation if creating a new split from scratch.
+val_split: 0.1
+
+# --- Data Loading and Sampling ---
+# Batch size for the training dataloader.
+batch_size: 8
+
+# Batch size for validation and testing dataloaders.
+eval_batch_size: 8
+
+# Number of parallel workers for loading data.
+num_workers: 8
+
+# Use pinned memory for faster CPU-to-GPU data transfer.
+pin_memory: True
+
+# Keep worker processes alive between epochs to reduce overhead.
+persistent_workers: True
+
+# Limit training subjects to a fraction (<1.0) or an absolute number (>=1).
+# Set to null to use all available subjects.
+limit_training_samples: null
+
+# Limit validation subjects.
+limit_validation_samples: null
+
+# Limit test subjects.
+limit_test_samples: null
+
+# --- fMRI Sequence Parameters ---
+# Number of time points (frames) in each fMRI sequence.
+sequence_length: 2
+
+# Stride factor between consecutive sequences from the same subject.
+# 1.0 means no gap, 0.5 means 50% overlap.
+stride_between_seq: 1.0
+
+# Stride within a sequence (e.g., 2 means taking every other frame).
+stride_within_seq: 1
+
+# Shuffle frames within a sequence instead of taking them chronologically.
+shuffle_time_sequence: False
+
+# Limit the number of segments extracted from each training subject.
+# Set to null to extract all possible segments.
+num_train_fMRI_segments: null
+
+# --- Preprocessing and Caching ---
+# Normalization strategy for input sequences.
+# Options: "minmax", "znorm_zeroback", "znorm_minback", "robust", "none"
+input_scaling_method: "znorm_minback"
+
+# Normalization for regression task labels.
+# Options: "minmax", "standardization"
+label_scaling_method: "standardization"
+
+# Enable caching of the dataset file list and subject dictionaries for faster startup.
+use_subj_dict: True
+
+# --- Downstream Task ---
+# The specific task for the model (e.g., predicting age, sex).
+# This determines which metadata column is used as the target.
+downstream_task: "age"

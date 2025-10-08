@@ -1,0 +1,1362 @@
+2025-08-15T06:47:39-07:00 LAUNCH
+[I 2025-08-15 06:47:44.729 ServerApp] Extension package dask_labextension took 1.2033s to import
+[W 2025-08-15 06:47:44.729 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-08-15 06:47:46.482 ServerApp] Extension package jupyterlab_h5web took 1.0983s to import
+[I 2025-08-15 06:47:46.757 ServerApp] Extension package jupyterlab_jupytext took 0.2743s to import
+[I 2025-08-15 06:47:46.969 ServerApp] Extension package jupyterlab_nvdashboard took 0.2120s to import
+[W 2025-08-15 06:47:47.009 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-08-15 06:47:47.016 ServerApp] dask_labextension | extension was successfully linked.
+[I 2025-08-15 06:47:47.017 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-08-15 06:47:47.017 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2025-08-15 06:47:47.027 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2025-08-15 06:47:47.027 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2025-08-15 06:47:47.035 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-08-15 06:47:47.035 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.0.0
+[I 2025-08-15 06:47:47.035 JupyterHubSingleUser] Using default url from environment $JUPYTERHUB_DEFAULT_URL: /lab/tree/global/homes/t/tbalasoo
+[I 2025-08-15 06:47:47.038 ServerApp] jupyterhub | extension was successfully linked.
+[W 2025-08-15 06:47:47.044 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2025-08-15 06:47:47.047 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-08-15 06:47:47.047 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2025-08-15 06:47:47.047 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2025-08-15 06:47:47.047 ServerApp] jupyterlab_h5web | extension was successfully linked.
+[I 2025-08-15 06:47:47.048 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2025-08-15 06:47:47.048 ServerApp] jupyterlab_nvdashboard | extension was successfully linked.
+[I 2025-08-15 06:47:47.048 ServerApp] jupyterlab_wall | extension was successfully linked.
+[W 2025-08-15 06:47:47.054 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2025-08-15 06:47:47.056 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-08-15 06:47:47.056 ServerApp] nbdime | extension was successfully linked.
+[W 2025-08-15 06:47:47.061 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2025-08-15 06:47:47.064 ServerApp] notebook | extension was successfully linked.
+[I 2025-08-15 06:47:47.065 ServerApp] Writing Jupyter server cookie secret to /tmp/jupyter-runtime-e94bb1ac-cb8a-4c47-9084-c2818b67bc68/jupyter_cookie_secret
+[I 2025-08-15 06:47:47.096 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-08-15 06:47:47.171 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-08-15 06:47:47.172 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2025-08-15 06:47:47.174 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-08-15 06:47:47.174 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2025-08-15 06:47:47.175 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2025-08-15 06:47:47.207 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2025-08-15 06:47:47.210 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-08-15 06:47:47.225 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2025-08-15 06:47:47.225 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2025-08-15 06:47:47.409 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-08-15 06:47:47.471 LabApp] JupyterLab extension loaded from /global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterlab
+[I 2025-08-15 06:47:47.471 LabApp] JupyterLab application directory is /global/common/software/nersc9/jupyter/ex/25-06/share/jupyter/lab
+[I 2025-08-15 06:47:47.473 LabApp] Extension Manager is 'pypi'.
+[I 2025-08-15 06:47:47.495 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-08-15 06:47:47.495 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2025-08-15 06:47:47.495 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2025-08-15 06:47:47.502 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2025-08-15 06:47:47.729 ServerApp] Jupyterlab-h5web extension will serve HDF5 files from /
+[I 2025-08-15 06:47:47.729 ServerApp] jupyterlab_h5web | extension was successfully loaded.
+[W 2025-08-15 06:47:47.730 ServerApp] [Jupytext Server Extension] Async contents managers like {base_class.__name__} are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2025-08-15 06:47:47.730 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2025-08-15 06:47:47.731 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2025-08-15 06:47:47.732 ServerApp] Registered jupyterlab_nvdashboard server extension
+[I 2025-08-15 06:47:47.732 ServerApp] jupyterlab_nvdashboard | extension was successfully loaded.
+/user/tbalasoo/perlmutter-exclusive-node-gpu/jupyterlab_wall/get_example
+NoneType: None
+[I 2025-08-15 06:47:47.732 ServerApp] Registered jupyterlab_wall server extension
+[I 2025-08-15 06:47:47.732 ServerApp] jupyterlab_wall | extension was successfully loaded.
+[I 2025-08-15 06:47:47.762 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-08-15 06:47:47.999 ServerApp] nbdime | extension was successfully loaded.
+[I 2025-08-15 06:47:48.070 ServerApp] notebook | extension was successfully loaded.
+[I 2025-08-15 06:47:48.070 ServerApp] Will shut down after 64800 seconds with no kernels.
+[I 2025-08-15 06:47:48.071 ServerApp] Serving notebooks from local directory: /
+[I 2025-08-15 06:47:48.071 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-08-15 06:47:48.071 ServerApp] http://nid001008:40999/user/tbalasoo/perlmutter-exclusive-node-gpu/lab/tree/global/homes/t/tbalasoo?token=...
+[I 2025-08-15 06:47:48.071 ServerApp]     http://127.0.0.1:40999/user/tbalasoo/perlmutter-exclusive-node-gpu/lab/tree/global/homes/t/tbalasoo?token=...
+[I 2025-08-15 06:47:48.071 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2025-08-15 06:47:48.093 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:47:48.939 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:47:49.214 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:47:51.856 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:47:59.286 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:08.977 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:21.357 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:27.078 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:37.993 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:40.330 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:41.906 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:51.428 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:48:51.428 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 06:53:36.256 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:37.247 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:37.565 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:38.165 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:43.712 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:47.149 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:57.167 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:53:57.211 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:09.571 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:20.718 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:27.869 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:30.841 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:34.405 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:41.282 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:54:41.282 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 06:59:56.026 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:59:57.256 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 06:59:59.213 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:01.063 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:04.016 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:05.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:06.704 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:09.698 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:10.412 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:18.352 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:24.415 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:31.214 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:35.027 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:46.919 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:49.947 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:53.644 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:57.804 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:00:57.805 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:05:45.443 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:05:46.323 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:05:47.059 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:05:49.805 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:05:54.536 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:01.677 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:11.591 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:20.428 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:23.700 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:31.353 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:39.494 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:06:39.494 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:11:45.793 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:11:45.823 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:11:47.317 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:11:48.643 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:11:54.313 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:08.201 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:20.114 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:32.638 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:41.896 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:42.511 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:45.674 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:48.136 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:49.406 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:12:49.406 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:18:17.582 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:18.407 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:19.114 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:21.338 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:27.958 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:29.696 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:30.009 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:36.660 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:38.517 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:18:49.116 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:19:03.249 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:19:06.830 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:19:13.345 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:19:17.478 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:19:17.478 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:24:25.822 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:26.342 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:28.276 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:32.240 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:34.557 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:37.818 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:46.878 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:46.904 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:24:54.939 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:25:06.928 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:25:13.905 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:25:22.648 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:25:22.648 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:30:48.080 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:30:48.860 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:30:49.039 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:30:51.524 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:30:53.868 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:00.349 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:05.293 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:13.350 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:28.239 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:35.886 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:46.787 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:31:46.788 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:36:46.063 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:36:46.377 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:36:47.154 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:36:48.620 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:36:52.587 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:36:53.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:07.625 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:18.159 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:19.734 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:26.447 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:30.905 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:45.498 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:47.492 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:48.592 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:37:48.592 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:43:11.865 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:12.617 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:12.871 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:13.814 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:21.130 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:31.267 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:39.981 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:43:51.977 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:44:06.383 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:44:11.560 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:44:11.560 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:49:07.902 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:08.562 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:08.808 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:10.964 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:17.222 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:28.296 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:30.725 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:36.391 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:41.432 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:50.233 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:51.057 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:49:55.444 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:50:03.704 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:50:05.213 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:50:05.214 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 07:55:18.930 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:19.433 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:21.222 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:22.006 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:28.931 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:36.174 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:48.753 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:55:56.595 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:56:08.871 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:56:14.231 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 07:56:14.232 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:00:51.578 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:00:52.549 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:00:53.056 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:00:56.363 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:02.547 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:16.434 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:22.173 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:22.681 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:23.440 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:34.235 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:47.955 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:01:47.955 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:07:07.166 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:07.918 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:08.141 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:11.524 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:13.153 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:16.746 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:26.727 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:35.396 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:47.444 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:07:52.791 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:08:07.648 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:08:12.827 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:08:12.827 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:13:38.765 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:13:39.515 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:13:40.069 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:13:42.894 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:13:45.330 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:13:46.918 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:00.668 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:02.657 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:16.424 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:18.288 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:30.292 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:36.274 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:14:36.274 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:19:10.760 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:11.044 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:11.435 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:12.064 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:19.813 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:23.482 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:34.977 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:43.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:49.638 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:19:53.358 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:20:02.542 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:20:05.086 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:20:08.591 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:20:08.591 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:24:43.390 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:24:44.865 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:24:46.233 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:24:47.163 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:24:53.145 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:00.585 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:10.369 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:21.750 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:23.318 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:35.790 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:37.692 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:25:37.692 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:30:49.318 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:30:49.995 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:30:51.793 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:30:54.579 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:02.174 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:10.446 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:22.405 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:28.526 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:34.164 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:39.496 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:48.565 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:31:48.565 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:36:26.578 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:26.658 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:26.803 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:29.835 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:36.701 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:43.563 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:36:56.719 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:08.134 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:13.128 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:15.927 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:15.975 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:21.602 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:24.609 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:37:24.609 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:42:07.830 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:08.048 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:09.615 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:10.870 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:15.128 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:27.260 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:40.918 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:42:51.126 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:43:04.998 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:43:07.269 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:43:07.269 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:48:03.387 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:03.558 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:04.601 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:07.997 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:08.964 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:15.343 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:19.476 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:26.924 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:30.892 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:35.161 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:49.103 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:48:55.457 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:49:04.060 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:49:04.060 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 08:54:16.094 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:16.352 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:18.131 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:20.525 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:22.027 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:31.453 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:45.703 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:52.758 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:55.781 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:54:58.215 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:55:11.848 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:55:21.543 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 08:55:21.543 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:00:22.230 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:23.112 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:23.952 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:26.841 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:28.024 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:31.480 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:45.618 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:00:57.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:01:00.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:01:05.669 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:01:20.501 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:01:21.482 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:01:21.482 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:06:04.706 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:04.900 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:06.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:07.161 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:09.846 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:16.021 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:28.013 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:30.013 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:34.047 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:40.135 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:48.855 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:06:50.917 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:07:02.781 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:07:04.937 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:07:04.937 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:12:22.325 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:22.484 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:23.841 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:24.737 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:28.098 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:33.434 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:37.895 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:12:49.816 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:01.249 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:05.093 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:10.780 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:12.587 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:16.653 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:13:16.653 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:17:52.993 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:17:53.834 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:17:54.951 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:17:58.872 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:04.754 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:09.923 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:19.023 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:23.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:28.082 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:30.275 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:44.379 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:56.009 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:57.237 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:18:57.237 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:23:57.634 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:23:57.978 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:23:59.463 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:00.211 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:01.837 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:12.956 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:26.729 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:35.415 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:41.835 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:51.580 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:53.817 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:24:53.818 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:30:07.719 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:07.898 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:07.959 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:08.657 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:16.486 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:26.903 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:33.545 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:41.629 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:45.967 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:52.213 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:30:54.408 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:31:05.005 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:31:10.630 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:31:10.630 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:36:31.312 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:36:31.833 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:36:33.440 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:36:34.057 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:36:39.027 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:36:51.646 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:37:04.887 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:37:19.814 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:37:31.138 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:37:31.942 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:37:31.942 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:42:10.272 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:10.470 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:12.123 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:13.557 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:16.118 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:23.570 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:30.708 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:39.040 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:42.268 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:45.618 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:48.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:42:58.252 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:43:00.635 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:43:05.971 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:43:05.971 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:47:46.634 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:46.841 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:47.360 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:49.388 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:50.912 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:51.802 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:47:54.415 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:02.137 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:04.628 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:13.047 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:24.568 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:33.131 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:45.164 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:49.475 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:48:49.475 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 09:53:54.101 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:53:55.794 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:53:58.074 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:00.149 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:05.243 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:17.207 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:28.491 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:36.020 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:41.571 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:50.015 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:50.783 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:52.244 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 09:54:52.244 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:00:19.400 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:21.964 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:26.485 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:27.402 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:29.801 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:37.896 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:00:51.486 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:01:03.079 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:01:09.655 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:01:16.785 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:01:16.785 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:06:36.557 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:37.111 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:38.878 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:41.908 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:49.338 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:53.452 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:06:56.464 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:07:03.385 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:07:16.081 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:07:28.907 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:07:35.838 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:07:35.838 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:12:52.027 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:12:52.082 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:12:53.761 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:12:57.711 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:05.336 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:13.309 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:19.921 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:21.943 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:32.737 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:41.964 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:46.760 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:54.867 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:57.009 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:13:57.009 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:18:34.075 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:34.529 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:36.149 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:38.612 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:41.585 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:48.397 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:49.269 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:18:56.301 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:04.042 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:05.411 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:05.721 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:10.366 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:20.036 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:30.094 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:36.469 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:40.043 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:19:40.043 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:25:01.556 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:02.047 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:03.304 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:05.838 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:12.380 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:15.565 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:22.947 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:30.892 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:33.405 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:45.499 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:25:57.436 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:26:06.390 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:26:06.390 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:30:38.173 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:30:38.474 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:30:40.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:30:42.208 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:30:49.942 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:04.101 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:18.016 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:28.032 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:28.775 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:39.461 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:43.899 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:31:43.899 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:36:29.252 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:36:30.235 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:36:30.939 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:36:31.882 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:36:34.214 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:36:47.505 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:37:01.440 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:37:11.611 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:37:24.973 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:37:24.974 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:42:30.247 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:30.661 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:32.211 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:36.419 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:39.043 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:45.150 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:46.501 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:48.271 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:42:57.217 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:01.131 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:13.301 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:13.572 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:18.048 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:24.410 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:24.792 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:43:24.792 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:47:57.617 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:47:58.611 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:47:58.761 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:00.490 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:03.059 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:10.723 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:17.280 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:32.415 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:38.099 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:41.049 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:47.165 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:51.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:52.721 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:48:52.721 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:53:30.132 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:30.578 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:31.239 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:32.472 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:35.015 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:39.077 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:47.554 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:53:48.212 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:54:00.153 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:54:09.361 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:54:21.936 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:54:29.614 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:54:29.614 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 10:59:50.974 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:59:51.292 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:59:52.302 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 10:59:54.988 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:00.141 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:14.751 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:19.860 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:23.880 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:38.202 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:40.369 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:54.760 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:00:54.761 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:05:24.861 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:25.724 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:26.082 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:26.765 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:28.061 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:39.776 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:05:49.946 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:01.201 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:08.452 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:08.512 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:08.976 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:17.361 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:25.757 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:06:25.757 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:11:00.265 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:00.574 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:02.457 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:06.289 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:11.953 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:16.522 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:19.589 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:22.025 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:36.316 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:45.504 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:59.131 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:11:59.131 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:16:37.601 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:16:38.262 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:16:38.564 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:16:42.256 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:16:42.814 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:16:57.319 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:01.046 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:12.431 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:13.093 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:14.252 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:15.256 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:25.466 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:34.126 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:36.293 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:17:36.293 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:22:37.153 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:22:38.076 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:22:39.428 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:22:39.616 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:22:46.214 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:22:48.880 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:02.139 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:08.321 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:13.035 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:25.445 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:31.269 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:34.352 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:23:34.352 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:28:54.878 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:28:55.367 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:28:55.572 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:28:57.354 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:28:59.855 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:10.607 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:15.393 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:24.482 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:28.937 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:32.990 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:36.996 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:48.434 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:52.041 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:29:52.041 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:35:06.219 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:06.799 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:08.172 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:09.615 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:16.628 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:20.459 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:25.701 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:39.899 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:47.443 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:52.314 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:35:57.345 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:36:04.779 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:36:04.779 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:41:15.857 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:16.448 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:17.518 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:17.813 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:23.671 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:24.721 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:35.286 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:41.924 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:45.953 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:41:57.584 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:00.603 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:01.758 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:03.665 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:05.304 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:11.096 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:42:11.096 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:47:10.951 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:11.905 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:12.693 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:14.629 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:18.400 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:22.770 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:37.554 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:43.772 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:54.824 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:47:58.833 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:48:08.340 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:48:08.340 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:52:55.032 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:52:55.058 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:52:55.114 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:52:57.503 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:52:58.809 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:05.267 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:12.061 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:24.752 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:27.945 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:30.366 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:34.820 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:39.915 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:45.957 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:50.755 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:56.367 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:53:56.367 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 11:58:48.148 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:58:48.171 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:58:48.821 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:58:49.165 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:58:55.455 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:01.585 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:01.911 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:13.079 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:17.305 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:29.663 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:41.527 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:45.042 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 11:59:45.043 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:04:48.605 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:04:48.853 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:04:50.812 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:04:54.021 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:04:57.053 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:04:59.267 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:04.640 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:18.521 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:30.014 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:40.933 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:46.466 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:48.620 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:52.275 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:05:52.275 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:10:42.738 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:10:43.213 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:10:43.244 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:10:45.163 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:10:47.052 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:10:52.967 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:03.028 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:16.094 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:24.052 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:24.498 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:36.337 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:37.064 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:43.859 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:11:43.859 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:16:43.416 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:16:43.650 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:16:44.153 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:16:46.219 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:16:51.039 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:16:57.097 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:09.577 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:16.820 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:18.994 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:24.301 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:31.889 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:45.278 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:45.980 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:17:45.980 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:22:36.252 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:22:36.434 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:22:36.867 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:22:40.877 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:22:46.558 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:22:56.632 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:01.322 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:07.287 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:20.654 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:30.005 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:41.494 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:41.977 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:23:41.977 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:28:27.172 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:27.871 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:29.171 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:31.039 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:35.381 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:50.051 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:28:56.436 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:05.857 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:06.939 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:10.269 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:21.948 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:28.574 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:29:28.574 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:34:04.814 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:05.729 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:07.709 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:09.660 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:16.349 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:18.121 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:28.116 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:29.997 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:38.459 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:40.945 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:44.093 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:34:58.704 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:35:04.078 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:35:08.528 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:35:08.528 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:40:30.052 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:40:30.865 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:40:31.604 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:40:34.686 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:40:41.400 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:40:53.077 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:41:02.611 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:41:13.662 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:41:25.298 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:41:28.910 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:41:28.910 JupyterHubSingleUser] Error notifying Hub of activity
+    Traceback (most recent call last):
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 469, in keep_activity_updated
+        await self.notify_activity()
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/singleuser/extension.py", line 449, in notify_activity
+        await exponential_backoff(
+      File "/global/common/software/nersc9/jupyter/ex/25-06/lib/python3.10/site-packages/jupyterhub/utils.py", line 265, in exponential_backoff
+        raise asyncio.TimeoutError(fail_message)
+    asyncio.exceptions.TimeoutError: Failed to notify Hub of activity
+[E 2025-08-15 12:46:54.655 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:46:55.357 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:46:55.979 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:46:56.420 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:47:02.895 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:47:14.771 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:47:27.147 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:47:38.533 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+[E 2025-08-15 12:47:41.638 JupyterHubSingleUser] Error notifying Hub of activity: HTTP 403: Forbidden
+slurmstepd: error: *** JOB 41661729 ON nid001008 CANCELLED AT 2025-08-15T19:47:42 DUE TO TIME LIMIT ***
