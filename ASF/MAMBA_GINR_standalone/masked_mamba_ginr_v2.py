@@ -107,37 +107,44 @@ class MambaEncoder(nn.Module):
 
 
 class LearnablePositionTokens(nn.Module):
-    """LP tokens with sinusoidal initialization and equidistant placement"""
-    def __init__(self, num_tokens=256, dim=256, input_len=256):
+    """
+    LP tokens - FIXED for variable-length sequences
+
+    Simplified version: LP tokens concatenated at END (not interleaved)
+    This avoids index out of bounds errors with variable-length visible patches.
+    """
+    def __init__(self, num_tokens=256, dim=256):
         super().__init__()
         self.num_tokens = num_tokens
         self.dim = dim
-        self.input_len = input_len
 
         # Initialize with sinusoidal embeddings
         init_tokens = get_sinusoidal_embeddings(num_tokens, dim)
         self.tokens = nn.Parameter(init_tokens, requires_grad=True)
 
-        # Compute equidistant placement
-        total_len = input_len + num_tokens
-        self.lp_idxs = torch.linspace(0, total_len - 1, steps=num_tokens).long()
-
-        # Compute interleave permutation
-        perm = torch.full((total_len,), -1, dtype=torch.long)
-        perm[self.lp_idxs] = torch.arange(input_len, input_len + num_tokens)
-        perm[perm == -1] = torch.arange(input_len)
-        self.register_buffer('perm', perm)
-
     def add_lp(self, x):
-        """Add LP tokens to input sequence"""
+        """
+        Add LP tokens to END of sequence
+
+        Args:
+            x: (B, L, D) input tokens (variable length L)
+        Returns:
+            (B, L+num_tokens, D) tokens with LP appended
+        """
         B = x.shape[0]
         lps = repeat(self.tokens, 'n d -> b n d', b=B)
-        x_full = torch.cat([x, lps], dim=1)  # (B, L+num_tokens, D)
-        return x_full[:, self.perm]  # Interleave
+        return torch.cat([x, lps], dim=1)  # Concatenate at end
 
     def extract_lp(self, x):
-        """Extract LP tokens from encoded sequence"""
-        return x[:, self.lp_idxs]
+        """
+        Extract LP tokens from END of sequence
+
+        Args:
+            x: (B, L+num_tokens, D) encoded tokens
+        Returns:
+            (B, num_tokens, D) LP features
+        """
+        return x[:, -self.num_tokens:]  # Last num_tokens positions
 
 
 # ============================================================================
@@ -236,11 +243,10 @@ class MaskedMAMBAGINR(nn.Module):
         self.register_buffer('pos_freq', torch.randn(dim // 2, 2) * 10.0)
         self.pos_proj = nn.Linear(dim, dim)
 
-        # Learnable position tokens (adaptive to masked sequence length)
+        # Learnable position tokens (works with variable-length sequences)
         self.lp_module = LearnablePositionTokens(
             num_tokens=num_lp,
-            dim=dim,
-            input_len=self.num_patches  # Will adapt to variable visible patches
+            dim=dim
         )
 
         # BiMamba encoder
